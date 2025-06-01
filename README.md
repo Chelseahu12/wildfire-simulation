@@ -1,4 +1,4 @@
-# wildfire-simulation
+# wildfire-allocation-simulation
 Simulation for ECON136 - Wildfire Insurance
 # Wildfire Simulation
 
