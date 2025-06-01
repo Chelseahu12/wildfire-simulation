@@ -5,11 +5,11 @@ Simulation for ECON136 - Wildfire Insurance
 This is a wildfire insurance simulation model built for **ECON136** by Anya Dua, Chelsea Hu, and Maya Agarwal.
 
 ## Features
-- Converts county-level data of acreage in 3 risk tiers into home-level risk exposure
-- Assigns burn probability and property value to each home to compute expected loss
+- For each county, converts acreage in each risk tier into # homes in each risk tier
+- Assigns burn probability (randomized from its risk tier) and property value to each home (randomized from mean property value in county)
 - Allocates 10,000 homes across insurers based on:
-  a. Market share
-  b. Equalized expected loss
+  a. Market share: Each insurance company gets a number of homes proportional to their 2023 market share. 
+  b. Equal expected loss: Each insurance company faces an equal expected loss from their contracts.
 - Outputs detailed Excel files for analysis
 
 ## Files
